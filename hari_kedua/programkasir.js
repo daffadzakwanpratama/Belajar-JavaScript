@@ -1,11 +1,12 @@
-console.log("===Program kasir sederhana====")
-const apel = 5000;
-const jeruk = 15000;
-const pisang = 10000;
-const diskon = 0.10;
+console.log("Selamat datang di program kasir");
 
-const belanja = (apel * 3) + (pisang * 2);
-console.log("Total belanja: " + belanja);
-const totalBelanja = belanja - diskon;
-console.log("Total belanja setelah diskon: " + totalBelanja);
+const menu = "mie ayam";
+let harga = 0;
 
+switch (menu) {
+    case "mie ayam":
+        harga = 12000;
+        break;
+}
+console.log("Menu :", menu);
+console.log("Harga :", harga);
